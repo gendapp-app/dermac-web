@@ -52201,7 +52201,7 @@ s=14
 return A.m(m.aaJ(k,l.d,a0,j,f.a),$async$ui)
 case 14:f=l
 f.e=B.JT
-f.f="Subido: se va a procesar solo."
+f.f='Subido. Queda "Pendiente" hasta que el servidor lo procese: si est\xe1 apagado, se procesa solo cuando se prenda.'
 case 12:p=2
 s=8
 break
