@@ -1,0 +1,118 @@
+{
+  "id": "tratamientos-termicos",
+  "titulo": "Tratamientos térmicos",
+  "descripcion": "Qué es cada uno, para qué se usa y cómo se indica en un plano",
+  "categoria": "tablas",
+  "estado": "provisoria",
+  "palabras_clave": ["acero", "dureza", "HRC", "HV", "plano", "temple", "revenido", "cementado", "nitrurado", "recocido"],
+  "nota": "Orientativo. Las durezas y profundidades dependen del acero y de la pieza: manda lo que indica el plano o el fabricante. PENDIENTE DE VALIDAR.",
+  "columnas": [
+    {"id": "nombre", "titulo": "Tratamiento"},
+    {"id": "tipo", "titulo": "Tipo"},
+    {"id": "que_es", "titulo": "Qué es"},
+    {"id": "para_que", "titulo": "Para qué se usa"},
+    {"id": "en_plano", "titulo": "Cómo suele indicarse en un plano"},
+    {"id": "aceros", "titulo": "Aceros típicos"}
+  ],
+  "columna_titulo": "nombre",
+  "columnas_resumen": ["tipo", "para_que"],
+  "filtros": ["tipo"],
+  "filas": [
+    {
+      "nombre": "Temple",
+      "tipo": "Masivo",
+      "que_es": "Calentar el acero por encima de la temperatura de austenización (unos 800 a 900 °C según el acero) y enfriarlo rápido en agua, aceite, polímero o aire.",
+      "para_que": "Aumentar mucho la dureza y la resistencia. Solo, deja la pieza frágil: casi siempre se hace un revenido después.",
+      "en_plano": "\"Templado\" con la dureza buscada, por ejemplo \"Templado 55-60 HRC\". Casi siempre aparece junto con el revenido.",
+      "aceros": "Aceros de medio y alto carbono y aleados: SAE 1045, 4140, 4340, 52100, aceros de herramientas."
+    },
+    {
+      "nombre": "Revenido",
+      "tipo": "Masivo",
+      "que_es": "Calentar una pieza ya templada a una temperatura menor (unos 150 a 650 °C) y dejarla enfriar.",
+      "para_que": "Bajar la fragilidad del temple y ganar tenacidad, resignando algo de dureza. A más temperatura de revenido, menos dureza y más tenacidad.",
+      "en_plano": "\"Templado y revenido\" con la dureza final, por ejemplo \"T+R 28-32 HRC\" o \"Templado y revenido a 50-55 HRC\".",
+      "aceros": "Los mismos que se templan."
+    },
+    {
+      "nombre": "Bonificado",
+      "tipo": "Masivo",
+      "que_es": "Temple seguido de un revenido alto (unos 550 a 650 °C).",
+      "para_que": "Dejar la pieza con buena resistencia y mucha tenacidad, todavía mecanizable. Típico de ejes, bulones y engranajes que no necesitan dureza superficial alta.",
+      "en_plano": "\"Bonificado\" con una dureza moderada o la resistencia, por ejemplo \"Bonificado 28-34 HRC\" o \"Bonificado 900-1100 MPa\".",
+      "aceros": "SAE 4140, 4340, 1045. Muchas barras ya se compran bonificadas."
+    },
+    {
+      "nombre": "Recocido",
+      "tipo": "Masivo",
+      "que_es": "Calentar el acero y enfriarlo muy lento, normalmente dentro del horno.",
+      "para_que": "Ablandar el acero, sacar tensiones y dejarlo fácil de mecanizar o de deformar en frío.",
+      "en_plano": "\"Recocido\" o \"Recocido de ablandamiento\", a veces con dureza máxima, por ejemplo \"Recocido, máx. 220 HB\".",
+      "aceros": "Casi todos; muy usado antes de mecanizar aceros de herramientas."
+    },
+    {
+      "nombre": "Recocido de alivio de tensiones",
+      "tipo": "Masivo",
+      "que_es": "Calentar a temperatura moderada (unos 550 a 650 °C en aceros), mantener y enfriar lento, sin cambiar la estructura del material.",
+      "para_que": "Sacar las tensiones que dejan la soldadura, el mecanizado fuerte o el enderezado, para que la pieza no se deforme ni se fisure después.",
+      "en_plano": "\"Alivio de tensiones\" o \"Distensionado\", a veces con la temperatura, por ejemplo \"Alivio de tensiones 600 °C, 1 h\".",
+      "aceros": "Estructuras soldadas, piezas grandes mecanizadas."
+    },
+    {
+      "nombre": "Normalizado",
+      "tipo": "Masivo",
+      "que_es": "Calentar por encima de la austenización y dejar enfriar al aire quieto.",
+      "para_que": "Afinar y uniformar el grano después de forjado, laminado o soldado. Deja el acero un poco más duro y resistente que el recocido.",
+      "en_plano": "\"Normalizado\".",
+      "aceros": "Aceros al carbono y de baja aleación: SAE 1020, 1045, piezas forjadas."
+    },
+    {
+      "nombre": "Cementado",
+      "tipo": "Termoquímico",
+      "que_es": "Agregar carbono a la superficie de un acero de bajo carbono calentándolo (unos 900 a 950 °C) en un medio rico en carbono. Después se templa y se reviene.",
+      "para_que": "Superficie muy dura y resistente al desgaste con núcleo tenaz. Típico de engranajes, piñones, levas y pernos.",
+      "en_plano": "\"Cementado y templado\" con profundidad y dureza, por ejemplo \"Cementado, templado y revenido. Prof. 0,8-1,2 mm. 58-62 HRC\". Las zonas que no van cementadas se indican aparte.",
+      "aceros": "Aceros de cementación de bajo carbono: SAE 1010, 1020, 8620, 9310."
+    },
+    {
+      "nombre": "Carbonitrurado",
+      "tipo": "Termoquímico",
+      "que_es": "Como el cementado, pero agregando carbono y nitrógeno, a menor temperatura (unos 800 a 870 °C). Después se templa.",
+      "para_que": "Capa dura de poca profundidad con menos deformación que el cementado. Piezas chicas y de serie.",
+      "en_plano": "\"Carbonitrurado\" con profundidad y dureza, por ejemplo \"Carbonitrurado 0,2-0,4 mm, 58-62 HRC\".",
+      "aceros": "Aceros de bajo carbono: SAE 1010, 1018, 12L14."
+    },
+    {
+      "nombre": "Nitrurado",
+      "tipo": "Termoquímico",
+      "que_es": "Agregar nitrógeno a la superficie a temperatura baja (unos 500 a 570 °C) en gas, sales o plasma. No necesita temple después.",
+      "para_que": "Superficie muy dura, resistente al desgaste y a la fatiga, casi sin deformar la pieza. Ejes, camisas, husillos, matrices.",
+      "en_plano": "\"Nitrurado\" con profundidad y dureza en Vickers, por ejemplo \"Nitrurado 0,3 mm, mín. 700 HV\". Se hace sobre la pieza terminada (o casi).",
+      "aceros": "Aceros aleados con cromo, molibdeno o aluminio: SAE 4140, 4340, aceros de nitruración, aceros de herramientas H13."
+    },
+    {
+      "nombre": "Temple por inducción",
+      "tipo": "Superficial",
+      "que_es": "Calentar solo la superficie con una bobina de inducción y enfriar enseguida (normalmente con agua o polímero).",
+      "para_que": "Endurecer zonas puntuales (asientos de rodamientos, dientes, muñones) dejando el resto tenaz.",
+      "en_plano": "\"Templado por inducción\" con zona, profundidad y dureza, por ejemplo \"Templado por inducción en zona A. Prof. 1,5-2,5 mm. 52-58 HRC\".",
+      "aceros": "Aceros de medio carbono: SAE 1045, 4140."
+    },
+    {
+      "nombre": "Temple a la llama",
+      "tipo": "Superficial",
+      "que_es": "Calentar la superficie con soplete y enfriar enseguida.",
+      "para_que": "Como el de inducción, para piezas grandes o pocas unidades (guías, dientes de engranajes grandes, poleas).",
+      "en_plano": "\"Templado a la llama\" con zona, profundidad y dureza.",
+      "aceros": "Aceros de medio carbono y fundiciones."
+    },
+    {
+      "nombre": "Envejecido (endurecimiento por precipitación)",
+      "tipo": "Masivo",
+      "que_es": "Mantener a temperatura moderada una aleación ya solubilizada para que precipiten partículas que la endurecen.",
+      "para_que": "Dar resistencia a aleaciones de aluminio, a algunos inoxidables y a aceros especiales.",
+      "en_plano": "En aluminio, como estado del material, por ejemplo \"6061-T6\" (solubilizado y envejecido). En inoxidables, por ejemplo \"17-4 PH H1025\".",
+      "aceros": "Aluminio 6061, 7075; inoxidable 17-4 PH."
+    }
+  ]
+}

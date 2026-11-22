@@ -1,0 +1,767 @@
+{
+ "id": "torque-apriete",
+ "titulo": "Torque de apriete de tornillos métricos",
+ "descripcion": "M3 a M30, rosca gruesa y fina, clases 8.8, 10.9 y 12.9, en seco y lubricado",
+ "categoria": "mecanica",
+ "estado": "provisoria",
+ "palabras_clave": [
+  "bulon",
+  "tornillo",
+  "ajuste",
+  "apriete",
+  "Nm",
+  "torquimetro",
+  "llave",
+  "rosca"
+ ],
+ "nota": "Calculado con la VDI 2230 (precarga al 90 % del límite elástico, cabeza hexagonal y agujero medio). En seco: rozamiento 0,14 (acero negro o fosfatado, sin lubricar). Lubricado: 0,10 (aceite o grasa). Si el fabricante del equipo indica otro torque, manda el del fabricante. PENDIENTE DE VALIDAR: comparar con la tabla de la planta.",
+ "columnas": [
+  {
+   "id": "nombre",
+   "titulo": "Tornillo"
+  },
+  {
+   "id": "rosca",
+   "titulo": "Rosca"
+  },
+  {
+   "id": "paso",
+   "titulo": "Paso",
+   "unidad": "mm"
+  },
+  {
+   "id": "tipo_paso",
+   "titulo": "Tipo de paso"
+  },
+  {
+   "id": "clase",
+   "titulo": "Clase de resistencia"
+  },
+  {
+   "id": "seco",
+   "titulo": "Torque en seco",
+   "unidad": "N·m",
+   "corto": "Seco"
+  },
+  {
+   "id": "lubricado",
+   "titulo": "Torque lubricado",
+   "unidad": "N·m",
+   "corto": "Lubricado"
+  },
+  {
+   "id": "precarga",
+   "titulo": "Fuerza de apriete (en seco)",
+   "unidad": "kN"
+  },
+  {
+   "id": "llave",
+   "titulo": "Llave (cabeza hexagonal)",
+   "unidad": "mm"
+  }
+ ],
+ "columna_titulo": "nombre",
+ "columnas_resumen": [
+  "seco",
+  "lubricado"
+ ],
+ "filtros": [
+  "clase",
+  "tipo_paso"
+ ],
+ "filas": [
+  {
+   "nombre": "M3 × 0,5 — clase 8.8",
+   "rosca": "M3",
+   "paso": "0,5",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 1.51,
+   "lubricado": 1.2,
+   "precarga": 2.48,
+   "llave": "5,5"
+  },
+  {
+   "nombre": "M3 × 0,5 — clase 10.9",
+   "rosca": "M3",
+   "paso": "0,5",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 2.21,
+   "lubricado": 1.76,
+   "precarga": 3.64,
+   "llave": "5,5"
+  },
+  {
+   "nombre": "M3 × 0,5 — clase 12.9",
+   "rosca": "M3",
+   "paso": "0,5",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 2.59,
+   "lubricado": 2.05,
+   "precarga": 4.26,
+   "llave": "5,5"
+  },
+  {
+   "nombre": "M4 × 0,7 — clase 8.8",
+   "rosca": "M4",
+   "paso": "0,7",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 3.45,
+   "lubricado": 2.75,
+   "precarga": 4.3,
+   "llave": "7"
+  },
+  {
+   "nombre": "M4 × 0,7 — clase 10.9",
+   "rosca": "M4",
+   "paso": "0,7",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 5.07,
+   "lubricado": 4.03,
+   "precarga": 6.32,
+   "llave": "7"
+  },
+  {
+   "nombre": "M4 × 0,7 — clase 12.9",
+   "rosca": "M4",
+   "paso": "0,7",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 5.93,
+   "lubricado": 4.72,
+   "precarga": 7.39,
+   "llave": "7"
+  },
+  {
+   "nombre": "M5 × 0,8 — clase 8.8",
+   "rosca": "M5",
+   "paso": "0,8",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 6.76,
+   "lubricado": 5.36,
+   "precarga": 7.01,
+   "llave": "8"
+  },
+  {
+   "nombre": "M5 × 0,8 — clase 10.9",
+   "rosca": "M5",
+   "paso": "0,8",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 9.93,
+   "lubricado": 7.87,
+   "precarga": 10.3,
+   "llave": "8"
+  },
+  {
+   "nombre": "M5 × 0,8 — clase 12.9",
+   "rosca": "M5",
+   "paso": "0,8",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 11.6,
+   "lubricado": 9.21,
+   "precarga": 12.0,
+   "llave": "8"
+  },
+  {
+   "nombre": "M6 × 1 — clase 8.8",
+   "rosca": "M6",
+   "paso": "1",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 11.6,
+   "lubricado": 9.25,
+   "precarga": 9.91,
+   "llave": "10"
+  },
+  {
+   "nombre": "M6 × 1 — clase 10.9",
+   "rosca": "M6",
+   "paso": "1",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 17.1,
+   "lubricado": 13.6,
+   "precarga": 14.6,
+   "llave": "10"
+  },
+  {
+   "nombre": "M6 × 1 — clase 12.9",
+   "rosca": "M6",
+   "paso": "1",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 20.0,
+   "lubricado": 15.9,
+   "precarga": 17.0,
+   "llave": "10"
+  },
+  {
+   "nombre": "M8 × 1,25 — clase 8.8",
+   "rosca": "M8",
+   "paso": "1,25",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 28.2,
+   "lubricado": 22.3,
+   "precarga": 18.1,
+   "llave": "13"
+  },
+  {
+   "nombre": "M8 × 1,25 — clase 10.9",
+   "rosca": "M8",
+   "paso": "1,25",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 41.4,
+   "lubricado": 32.7,
+   "precarga": 26.6,
+   "llave": "13"
+  },
+  {
+   "nombre": "M8 × 1,25 — clase 12.9",
+   "rosca": "M8",
+   "paso": "1,25",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 48.4,
+   "lubricado": 38.3,
+   "precarga": 31.2,
+   "llave": "13"
+  },
+  {
+   "nombre": "M8 × 1 — clase 8.8",
+   "rosca": "M8",
+   "paso": "1",
+   "tipo_paso": "Fina",
+   "clase": "8.8",
+   "seco": 30.1,
+   "lubricado": 23.6,
+   "precarga": 19.7,
+   "llave": "13"
+  },
+  {
+   "nombre": "M8 × 1 — clase 10.9",
+   "rosca": "M8",
+   "paso": "1",
+   "tipo_paso": "Fina",
+   "clase": "10.9",
+   "seco": 44.2,
+   "lubricado": 34.6,
+   "precarga": 29.0,
+   "llave": "13"
+  },
+  {
+   "nombre": "M8 × 1 — clase 12.9",
+   "rosca": "M8",
+   "paso": "1",
+   "tipo_paso": "Fina",
+   "clase": "12.9",
+   "seco": 51.8,
+   "lubricado": 40.5,
+   "precarga": 33.9,
+   "llave": "13"
+  },
+  {
+   "nombre": "M10 × 1,5 — clase 8.8",
+   "rosca": "M10",
+   "paso": "1,5",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 55.3,
+   "lubricado": 43.7,
+   "precarga": 28.8,
+   "llave": "16"
+  },
+  {
+   "nombre": "M10 × 1,5 — clase 10.9",
+   "rosca": "M10",
+   "paso": "1,5",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 81.2,
+   "lubricado": 64.1,
+   "precarga": 42.3,
+   "llave": "16"
+  },
+  {
+   "nombre": "M10 × 1,5 — clase 12.9",
+   "rosca": "M10",
+   "paso": "1,5",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 95.0,
+   "lubricado": 75.0,
+   "precarga": 49.5,
+   "llave": "16"
+  },
+  {
+   "nombre": "M10 × 1,25 — clase 8.8",
+   "rosca": "M10",
+   "paso": "1,25",
+   "tipo_paso": "Fina",
+   "clase": "8.8",
+   "seco": 58.3,
+   "lubricado": 45.6,
+   "precarga": 30.8,
+   "llave": "16"
+  },
+  {
+   "nombre": "M10 × 1,25 — clase 10.9",
+   "rosca": "M10",
+   "paso": "1,25",
+   "tipo_paso": "Fina",
+   "clase": "10.9",
+   "seco": 85.6,
+   "lubricado": 67.0,
+   "precarga": 45.3,
+   "llave": "16"
+  },
+  {
+   "nombre": "M10 × 1,25 — clase 12.9",
+   "rosca": "M10",
+   "paso": "1,25",
+   "tipo_paso": "Fina",
+   "clase": "12.9",
+   "seco": 100,
+   "lubricado": 78.4,
+   "precarga": 53.0,
+   "llave": "16"
+  },
+  {
+   "nombre": "M12 × 1,75 — clase 8.8",
+   "rosca": "M12",
+   "paso": "1,75",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 95.1,
+   "lubricado": 75.0,
+   "precarga": 42.0,
+   "llave": "18"
+  },
+  {
+   "nombre": "M12 × 1,75 — clase 10.9",
+   "rosca": "M12",
+   "paso": "1,75",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 140,
+   "lubricado": 110,
+   "precarga": 61.7,
+   "llave": "18"
+  },
+  {
+   "nombre": "M12 × 1,75 — clase 12.9",
+   "rosca": "M12",
+   "paso": "1,75",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 163,
+   "lubricado": 129,
+   "precarga": 72.2,
+   "llave": "18"
+  },
+  {
+   "nombre": "M12 × 1,5 — clase 8.8",
+   "rosca": "M12",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "8.8",
+   "seco": 99.3,
+   "lubricado": 77.8,
+   "precarga": 44.4,
+   "llave": "18"
+  },
+  {
+   "nombre": "M12 × 1,5 — clase 10.9",
+   "rosca": "M12",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "10.9",
+   "seco": 146,
+   "lubricado": 114,
+   "precarga": 65.2,
+   "llave": "18"
+  },
+  {
+   "nombre": "M12 × 1,5 — clase 12.9",
+   "rosca": "M12",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "12.9",
+   "seco": 171,
+   "lubricado": 134,
+   "precarga": 76.3,
+   "llave": "18"
+  },
+  {
+   "nombre": "M14 × 2 — clase 8.8",
+   "rosca": "M14",
+   "paso": "2",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 151,
+   "lubricado": 119,
+   "precarga": 57.6,
+   "llave": "21"
+  },
+  {
+   "nombre": "M14 × 2 — clase 10.9",
+   "rosca": "M14",
+   "paso": "2",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 222,
+   "lubricado": 175,
+   "precarga": 84.6,
+   "llave": "21"
+  },
+  {
+   "nombre": "M14 × 2 — clase 12.9",
+   "rosca": "M14",
+   "paso": "2",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 260,
+   "lubricado": 205,
+   "precarga": 99.0,
+   "llave": "21"
+  },
+  {
+   "nombre": "M16 × 2 — clase 8.8",
+   "rosca": "M16",
+   "paso": "2",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 234,
+   "lubricado": 183,
+   "precarga": 78.9,
+   "llave": "24"
+  },
+  {
+   "nombre": "M16 × 2 — clase 10.9",
+   "rosca": "M16",
+   "paso": "2",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 344,
+   "lubricado": 269,
+   "precarga": 116,
+   "llave": "24"
+  },
+  {
+   "nombre": "M16 × 2 — clase 12.9",
+   "rosca": "M16",
+   "paso": "2",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 402,
+   "lubricado": 315,
+   "precarga": 136,
+   "llave": "24"
+  },
+  {
+   "nombre": "M16 × 1,5 — clase 8.8",
+   "rosca": "M16",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "8.8",
+   "seco": 249,
+   "lubricado": 193,
+   "precarga": 85.6,
+   "llave": "24"
+  },
+  {
+   "nombre": "M16 × 1,5 — clase 10.9",
+   "rosca": "M16",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "10.9",
+   "seco": 366,
+   "lubricado": 283,
+   "precarga": 126,
+   "llave": "24"
+  },
+  {
+   "nombre": "M16 × 1,5 — clase 12.9",
+   "rosca": "M16",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "12.9",
+   "seco": 428,
+   "lubricado": 331,
+   "precarga": 147,
+   "llave": "24"
+  },
+  {
+   "nombre": "M18 × 2,5 — clase 8.8",
+   "rosca": "M18",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 335,
+   "lubricado": 264,
+   "precarga": 99.3,
+   "llave": "27"
+  },
+  {
+   "nombre": "M18 × 2,5 — clase 10.9",
+   "rosca": "M18",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 477,
+   "lubricado": 375,
+   "precarga": 141,
+   "llave": "27"
+  },
+  {
+   "nombre": "M18 × 2,5 — clase 12.9",
+   "rosca": "M18",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 558,
+   "lubricado": 439,
+   "precarga": 165,
+   "llave": "27"
+  },
+  {
+   "nombre": "M20 × 2,5 — clase 8.8",
+   "rosca": "M20",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 472,
+   "lubricado": 370,
+   "precarga": 127,
+   "llave": "30"
+  },
+  {
+   "nombre": "M20 × 2,5 — clase 10.9",
+   "rosca": "M20",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 672,
+   "lubricado": 526,
+   "precarga": 181,
+   "llave": "30"
+  },
+  {
+   "nombre": "M20 × 2,5 — clase 12.9",
+   "rosca": "M20",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 787,
+   "lubricado": 616,
+   "precarga": 212,
+   "llave": "30"
+  },
+  {
+   "nombre": "M20 × 1,5 — clase 8.8",
+   "rosca": "M20",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "8.8",
+   "seco": 521,
+   "lubricado": 399,
+   "precarga": 144,
+   "llave": "30"
+  },
+  {
+   "nombre": "M20 × 1,5 — clase 10.9",
+   "rosca": "M20",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "10.9",
+   "seco": 742,
+   "lubricado": 569,
+   "precarga": 206,
+   "llave": "30"
+  },
+  {
+   "nombre": "M20 × 1,5 — clase 12.9",
+   "rosca": "M20",
+   "paso": "1,5",
+   "tipo_paso": "Fina",
+   "clase": "12.9",
+   "seco": 868,
+   "lubricado": 666,
+   "precarga": 241,
+   "llave": "30"
+  },
+  {
+   "nombre": "M22 × 2,5 — clase 8.8",
+   "rosca": "M22",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 648,
+   "lubricado": 504,
+   "precarga": 159,
+   "llave": "34"
+  },
+  {
+   "nombre": "M22 × 2,5 — clase 10.9",
+   "rosca": "M22",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 922,
+   "lubricado": 718,
+   "precarga": 226,
+   "llave": "34"
+  },
+  {
+   "nombre": "M22 × 2,5 — clase 12.9",
+   "rosca": "M22",
+   "paso": "2,5",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 1080,
+   "lubricado": 841,
+   "precarga": 264,
+   "llave": "34"
+  },
+  {
+   "nombre": "M24 × 3 — clase 8.8",
+   "rosca": "M24",
+   "paso": "3",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 813,
+   "lubricado": 637,
+   "precarga": 183,
+   "llave": "36"
+  },
+  {
+   "nombre": "M24 × 3 — clase 10.9",
+   "rosca": "M24",
+   "paso": "3",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 1160,
+   "lubricado": 907,
+   "precarga": 261,
+   "llave": "36"
+  },
+  {
+   "nombre": "M24 × 3 — clase 12.9",
+   "rosca": "M24",
+   "paso": "3",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 1360,
+   "lubricado": 1060,
+   "precarga": 305,
+   "llave": "36"
+  },
+  {
+   "nombre": "M24 × 2 — clase 8.8",
+   "rosca": "M24",
+   "paso": "2",
+   "tipo_paso": "Fina",
+   "clase": "8.8",
+   "seco": 883,
+   "lubricado": 680,
+   "precarga": 204,
+   "llave": "36"
+  },
+  {
+   "nombre": "M24 × 2 — clase 10.9",
+   "rosca": "M24",
+   "paso": "2",
+   "tipo_paso": "Fina",
+   "clase": "10.9",
+   "seco": 1260,
+   "lubricado": 968,
+   "precarga": 290,
+   "llave": "36"
+  },
+  {
+   "nombre": "M24 × 2 — clase 12.9",
+   "rosca": "M24",
+   "paso": "2",
+   "tipo_paso": "Fina",
+   "clase": "12.9",
+   "seco": 1470,
+   "lubricado": 1130,
+   "precarga": 340,
+   "llave": "36"
+  },
+  {
+   "nombre": "M27 × 3 — clase 8.8",
+   "rosca": "M27",
+   "paso": "3",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 1200,
+   "lubricado": 935,
+   "precarga": 240,
+   "llave": "41"
+  },
+  {
+   "nombre": "M27 × 3 — clase 10.9",
+   "rosca": "M27",
+   "paso": "3",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 1710,
+   "lubricado": 1330,
+   "precarga": 342,
+   "llave": "41"
+  },
+  {
+   "nombre": "M27 × 3 — clase 12.9",
+   "rosca": "M27",
+   "paso": "3",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 2000,
+   "lubricado": 1560,
+   "precarga": 401,
+   "llave": "41"
+  },
+  {
+   "nombre": "M30 × 3,5 — clase 8.8",
+   "rosca": "M30",
+   "paso": "3,5",
+   "tipo_paso": "Gruesa",
+   "clase": "8.8",
+   "seco": 1630,
+   "lubricado": 1270,
+   "precarga": 292,
+   "llave": "46"
+  },
+  {
+   "nombre": "M30 × 3,5 — clase 10.9",
+   "rosca": "M30",
+   "paso": "3,5",
+   "tipo_paso": "Gruesa",
+   "clase": "10.9",
+   "seco": 2320,
+   "lubricado": 1810,
+   "precarga": 417,
+   "llave": "46"
+  },
+  {
+   "nombre": "M30 × 3,5 — clase 12.9",
+   "rosca": "M30",
+   "paso": "3,5",
+   "tipo_paso": "Gruesa",
+   "clase": "12.9",
+   "seco": 2720,
+   "lubricado": 2120,
+   "precarga": 487,
+   "llave": "46"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "grasas",
+  "titulo": "Tipos de grasa y su uso",
+  "descripcion": "Grados NLGI y tipos de espesante: temperatura y aplicación típica",
+  "categoria": "tablas",
+  "estado": "provisoria",
+  "palabras_clave": ["lubricante", "lubricacion", "NLGI", "litio", "poliurea", "calcio", "rodamiento", "engrase", "espesante"],
+  "nota": "Sin marcas. Las temperaturas son orientativas y dependen del aceite base y de los aditivos. No mezclar grasas de distinto espesante sin verificar que sean compatibles (por ejemplo, poliurea con litio suele ser incompatible). Manda la que indica el fabricante. PENDIENTE DE VALIDAR.",
+  "columnas": [
+    {"id": "nombre", "titulo": "Grasa"},
+    {"id": "familia", "titulo": "Familia"},
+    {"id": "descripcion", "titulo": "Qué es"},
+    {"id": "temperatura", "titulo": "Temperatura de uso", "unidad": "°C"},
+    {"id": "agua", "titulo": "Resistencia al agua"},
+    {"id": "aplicacion", "titulo": "Aplicación típica"}
+  ],
+  "columna_titulo": "nombre",
+  "columnas_resumen": ["temperatura", "aplicacion"],
+  "filtros": ["familia"],
+  "filas": [
+    {"nombre": "NLGI 000", "familia": "Grado NLGI", "descripcion": "Semifluida (penetración trabajada 445 a 475).", "temperatura": "", "agua": "", "aplicacion": "Reductores cerrados que se llenan con grasa, sistemas centralizados."},
+    {"nombre": "NLGI 00", "familia": "Grado NLGI", "descripcion": "Semifluida (penetración 400 a 430).", "temperatura": "", "agua": "", "aplicacion": "Sistemas de engrase centralizado, cajas de engranajes chicas."},
+    {"nombre": "NLGI 0", "familia": "Grado NLGI", "descripcion": "Muy blanda (penetración 355 a 385).", "temperatura": "", "agua": "", "aplicacion": "Engrase centralizado, engranajes abiertos, clima frío."},
+    {"nombre": "NLGI 1", "familia": "Grado NLGI", "descripcion": "Blanda (penetración 310 a 340).", "temperatura": "", "agua": "", "aplicacion": "Rodamientos en clima frío o de alta velocidad, engrase centralizado."},
+    {"nombre": "NLGI 2", "familia": "Grado NLGI", "descripcion": "Consistencia media (penetración 265 a 295). La más usada.", "temperatura": "", "agua": "", "aplicacion": "Rodamientos en general, chasis, articulaciones, motores eléctricos."},
+    {"nombre": "NLGI 3", "familia": "Grado NLGI", "descripcion": "Firme (penetración 220 a 250).", "temperatura": "", "agua": "", "aplicacion": "Rodamientos grandes, ejes verticales, temperatura alta, donde la grasa tiende a escurrirse."},
+    {"nombre": "NLGI 4 a 6", "familia": "Grado NLGI", "descripcion": "Muy firmes a tipo bloque (penetración 85 a 205).", "temperatura": "", "agua": "", "aplicacion": "Usos especiales: sellado, cojinetes lisos lentos, grasa en bloque."},
+    {"nombre": "Litio", "familia": "Espesante", "descripcion": "Jabón de litio. La grasa multipropósito más común.", "temperatura": "−30 a 120", "agua": "Buena", "aplicacion": "Rodamientos y engrase general en planta."},
+    {"nombre": "Complejo de litio", "familia": "Espesante", "descripcion": "Jabón complejo de litio: aguanta más temperatura que el litio común.", "temperatura": "−30 a 150", "agua": "Buena", "aplicacion": "Rodamientos que trabajan calientes, cubos de rueda, equipos móviles. Suele llevar EP."},
+    {"nombre": "Calcio (anhidro)", "familia": "Espesante", "descripcion": "Jabón de calcio. Muy resistente al agua, poca temperatura.", "temperatura": "−20 a 110", "agua": "Excelente", "aplicacion": "Equipos expuestos al agua o lavados, bombas de agua, ambientes húmedos."},
+    {"nombre": "Sulfonato de calcio complejo", "familia": "Espesante", "descripcion": "Espesante con muy buena protección contra el óxido y extrema presión propia.", "temperatura": "−20 a 150", "agua": "Excelente", "aplicacion": "Industria del acero, papeleras, minería, ambientes húmedos y con golpes."},
+    {"nombre": "Complejo de aluminio", "familia": "Espesante", "descripcion": "Resistente al agua y a la temperatura. Muy usado en versiones de grado alimenticio (H1).", "temperatura": "−30 a 150", "agua": "Muy buena", "aplicacion": "Industria alimentaria, equipos lavados con frecuencia."},
+    {"nombre": "Poliurea", "familia": "Espesante", "descripcion": "Espesante no jabonoso, de larga duración y bajo ruido.", "temperatura": "−30 a 160", "agua": "Buena", "aplicacion": "Rodamientos de motores eléctricos, rodamientos sellados de por vida, ventiladores. Suele ser incompatible con las de litio."},
+    {"nombre": "Bentonita (arcilla)", "familia": "Espesante", "descripcion": "Espesante inorgánico: no se derrite (no tiene punto de gota). El aceite base se degrada con el calor, así que hay que reengrasar seguido.", "temperatura": "−20 a 180", "agua": "Buena", "aplicacion": "Rodamientos de hornos, secadores y transportadores calientes, de baja velocidad."},
+    {"nombre": "Sodio", "familia": "Espesante", "descripcion": "Jabón de sodio. Se disuelve con el agua.", "temperatura": "−20 a 120", "agua": "Mala", "aplicacion": "Rodamientos en lugares secos. Casi reemplazada por el litio."},
+    {"nombre": "Con bisulfuro de molibdeno (MoS2) o grafito", "familia": "Aditivo", "descripcion": "Grasa (normalmente de litio) con lubricantes sólidos.", "temperatura": "según el espesante", "agua": "según el espesante", "aplicacion": "Articulaciones, bujes, pernos y guías con carga alta y poco movimiento. No es para rodamientos rápidos."},
+    {"nombre": "Extrema presión (EP)", "familia": "Aditivo", "descripcion": "Grasa con aditivos que evitan el contacto metal-metal con carga alta.", "temperatura": "según el espesante", "agua": "según el espesante", "aplicacion": "Rodamientos con golpes o carga alta, engranajes, equipos pesados."}
+  ]
+}

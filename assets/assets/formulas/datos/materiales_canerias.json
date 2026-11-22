@@ -1,0 +1,13 @@
+{
+  "estado": "provisoria",
+  "fuente": "Resistencia a la tracción mínima típica de cada material (normas ASTM / EN). Presión de trabajo = presión de rotura teórica (Barlow) dividida por el factor de seguridad. PENDIENTE DE VALIDAR.",
+  "factor_seguridad": 4,
+  "materiales": [
+    {"id": "a53b", "texto": "Acero al carbono ASTM A53 / A106 grado B", "rotura_mpa": 415},
+    {"id": "st37", "texto": "Acero St 37 / E235 (DIN 2391, EN 10305)", "rotura_mpa": 360},
+    {"id": "st52", "texto": "Acero St 52 / E355 (DIN 2391, EN 10305)", "rotura_mpa": 490},
+    {"id": "inox", "texto": "Acero inoxidable 304 / 316 (ASTM A312)", "rotura_mpa": 515},
+    {"id": "cobre", "texto": "Cobre recocido (ASTM B88)", "rotura_mpa": 205},
+    {"id": "aluminio", "texto": "Aluminio 6061-T6", "rotura_mpa": 290}
+  ]
+}

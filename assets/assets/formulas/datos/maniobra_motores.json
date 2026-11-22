@@ -1,0 +1,11 @@
+{
+  "estado": "provisoria",
+  "fuente": "Rangos de regulación de guardamotores y corrientes nominales AC-3 de contactores más comunes en el mercado (sin marcas). Criterios: guardamotor regulado a la corriente nominal del motor; contactor con corriente AC-3 igual o mayor que la que circula por él; cable con corriente admisible igual o mayor que 1,25 veces la del motor. PENDIENTE DE VALIDAR POR IGNACIO.",
+  "rangos_guardamotor": [
+    [0.1, 0.16], [0.16, 0.25], [0.25, 0.4], [0.4, 0.63], [0.63, 1], [1, 1.6], [1.6, 2.5],
+    [2.5, 4], [4, 6.3], [6, 10], [9, 14], [13, 18], [17, 23], [20, 25], [24, 32],
+    [30, 40], [37, 50], [48, 65], [60, 80]
+  ],
+  "contactores_ac3": [9, 12, 18, 25, 32, 38, 40, 50, 65, 80, 95, 115, 150, 185, 225, 265, 300, 400],
+  "factor_cable": 1.25
+}
