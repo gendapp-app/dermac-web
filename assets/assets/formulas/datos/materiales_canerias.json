@@ -1,6 +1,6 @@
 {
   "estado": "provisoria",
-  "fuente": "Resistencia a la tracción mínima típica de cada material (normas ASTM / EN). Presión de trabajo = presión de rotura teórica (Barlow) dividida por el factor de seguridad. PENDIENTE DE VALIDAR.",
+  "fuente": "rotura_mpa = resistencia a la ROTURA (tracción mínima) típica de cada material, NO la tensión admisible (normas ASTM / EN). El factor de seguridad se aplica una sola vez. Presión de trabajo = presión de rotura teórica (Barlow) dividida por el factor de seguridad. PENDIENTE DE VALIDAR.",
   "factor_seguridad": 4,
   "materiales": [
     {"id": "a53b", "texto": "Acero al carbono ASTM A53 / A106 grado B", "rotura_mpa": 415},

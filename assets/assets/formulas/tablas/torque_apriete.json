@@ -1,7 +1,7 @@
 {
  "id": "torque-apriete",
  "titulo": "Torque de apriete de tornillos métricos",
- "descripcion": "M3 a M30, rosca gruesa y fina, clases 8.8, 10.9 y 12.9, en seco y lubricado",
+ "descripcion": "M3 a M30, clases 8.8, 10.9 y 12.9, en seco (μ = 0,14) y lubricado (μ = 0,10)",
  "categoria": "mecanica",
  "estado": "provisoria",
  "palabras_clave": [
@@ -14,7 +14,7 @@
   "llave",
   "rosca"
  ],
- "nota": "Calculado con la VDI 2230 (precarga al 90 % del límite elástico, cabeza hexagonal y agujero medio). En seco: rozamiento 0,14 (acero negro o fosfatado, sin lubricar). Lubricado: 0,10 (aceite o grasa). Si el fabricante del equipo indica otro torque, manda el del fabricante. PENDIENTE DE VALIDAR: comparar con la tabla de la planta.",
+ "nota": "Calculado con la VDI 2230 (precarga al 90 % del límite elástico, cabeza hexagonal y agujero medio). Coeficiente de rozamiento μ en seco: 0,14 (acero negro o fosfatado, sin lubricar). Lubricado: μ = 0,10 (aceite o grasa). Si el fabricante del equipo indica otro torque, manda el del fabricante. PENDIENTE DE VALIDAR: comparar con la tabla de la planta.",
  "columnas": [
   {
    "id": "nombre",
@@ -39,15 +39,15 @@
   },
   {
    "id": "seco",
-   "titulo": "Torque en seco",
+   "titulo": "Torque en seco (μ = 0,14)",
    "unidad": "N·m",
-   "corto": "Seco"
+   "corto": "Seco (μ 0,14)"
   },
   {
    "id": "lubricado",
-   "titulo": "Torque lubricado",
+   "titulo": "Torque lubricado (μ = 0,10)",
    "unidad": "N·m",
-   "corto": "Lubricado"
+   "corto": "Lubricado (μ 0,10)"
   },
   {
    "id": "precarga",
